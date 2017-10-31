@@ -23,6 +23,6 @@ export class Config {
   }
 
   public static FIREBASE = {
-    storageBucket: 'gs://daszichan.appspot.com'
+    storageBucket: 'gs://daszichan.appspot.com/'
   };
 }
