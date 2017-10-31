@@ -12,6 +12,9 @@
     "build.docker": "ng build --prod --aot && docker-compose build && docker-compose up"
   },
   "private": true,
+  "engines": {
+    "node": "8.7.0"
+  },
   "dependencies": {
     "@angular/animations": "^4.2.0",
     "@angular/cdk": "^2.0.0-beta.12",
