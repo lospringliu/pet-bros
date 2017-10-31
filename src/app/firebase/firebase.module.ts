@@ -9,12 +9,12 @@ import { FirebaseDataService } from './firebase-data.service';
 
 // This needs to be converted to a Token
 export const firebaseConfig = {
-  apiKey: 'AIzaSyCAqVp-nSsAv5CQfIduc6vVHYoFCQ-P1_U',
-  authDomain: 'pet-bros.firebaseapp.com',
-  databaseURL: 'https://pet-bros.firebaseio.com',
-  projectId: 'pet-bros',
-  storageBucket: 'pet-bros.appspot.com',
-  messagingSenderId: '234930243940'
+  apiKey: "AIzaSyDJy6UBsFx13jzSPFdfQJkLEcem2h0UFuQ",
+  authDomain: "daszichan.firebaseapp.com",
+  databaseURL: "https://daszichan.firebaseio.com",
+  projectId: "daszichan",
+  storageBucket: "daszichan.appspot.com",
+  messagingSenderId: "198573319997"
 };
 
 @NgModule({

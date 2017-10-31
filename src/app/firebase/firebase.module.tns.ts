@@ -6,7 +6,7 @@ import firebase = require('nativescript-plugin-firebase');
 
 // This needs to be converted to a Token
 export const firebaseConfig = {
-  storageBucket: 'gs://pet-bros.appspot.com/'
+  storageBucket: 'gs://daszichan.appspot.com/'
 };
 
 firebase.init({
