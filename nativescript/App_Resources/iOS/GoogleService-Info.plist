@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>234930243940-oslhi0r5nnvgddr5glcqv2fvqiojnf02.apps.googleusercontent.com</string>
+	<string>198573319997-qqal6ja8c2fjcprpioj0ir3v9e5muquq.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.234930243940-oslhi0r5nnvgddr5glcqv2fvqiojnf02</string>
+	<string>com.googleusercontent.apps.198573319997-qqal6ja8c2fjcprpioj0ir3v9e5muquq</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBZ26gXuDgJTxxYKXbql-fMEe1GGHcD1og</string>
+	<string>AIzaSyDZaicnW52_Kai0XhwT_qxG2weTMHx2AR4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>234930243940</string>
+	<string>198573319997</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sebawita.petbros</string>
+	<string>com.lospringliu.daszhichan</string>
 	<key>PROJECT_ID</key>
-	<string>pet-bros</string>
+	<string>daszichan</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pet-bros.appspot.com</string>
+	<string>daszichan.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:234930243940:ios:1b095b3a77734539</string>
+	<string>1:198573319997:ios:ce12cb1387c1c416</string>
 	<key>DATABASE_URL</key>
-	<string>https://pet-bros.firebaseio.com</string>
+	<string>https://daszichan.firebaseio.com</string>
 </dict>
 </plist>

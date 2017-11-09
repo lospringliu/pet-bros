@@ -40,15 +40,15 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "198573319997-t8a9pvsvvdl4m2fadje41l9e6bv4jnm0.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
               "client_id": "198573319997-qqal6ja8c2fjcprpioj0ir3v9e5muquq.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.lospringliu.daszhichan"
               }
+            },
+            {
+              "client_id": "198573319997-t8a9pvsvvdl4m2fadje41l9e6bv4jnm0.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         },

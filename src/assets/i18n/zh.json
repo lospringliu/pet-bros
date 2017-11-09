@@ -1,0 +1,32 @@
+{
+    "menu": {
+        "login": "登录",
+        "home": "首页",
+        "pet-search": "搜索宠物",
+        "shelter-search": "搜索避难所"
+    },
+    "login": {
+        "title": "登陆"
+    },
+    "home": {
+        "title": "首页"
+    },
+    "pet-search": {
+        "title": "搜索宠物"
+    },
+    "pet-search-results": {
+        "title": "宠物搜索结果"
+    },
+    "shelter-search": {
+        "title": "搜索避难所"
+    },
+    "shelter-search-results": {
+        "title": "避难所搜索结果"
+    },
+    "pet-details": {
+        "title": "宠物详情"
+    },
+    "shelter-details": {
+        "title": "避难所详情"
+    }
+}
