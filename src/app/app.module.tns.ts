@@ -1,5 +1,5 @@
 import { NgModule, NO_ERRORS_SCHEMA, NgModuleFactoryLoader } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 // nativescript
 import { NSModuleFactoryLoader } from 'nativescript-angular/router';
 import { NativeScriptHttpModule } from 'nativescript-angular/http';
@@ -21,7 +21,7 @@ import { NavigationService } from './navigation.service';
 
 Config.PLATFORM_TARGET = Config.PLATFORMS.MOBILE_NATIVE;
 
-export function createTranslateLoader(http: Http) {
+export function TranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(<any>http, '/assets/i18n/', '.json');
 }
 
@@ -30,13 +30,14 @@ export function createTranslateLoader(http: Http) {
     AppComponent
   ],
   imports: [
+    HttpClientModule,
     NativeScriptModule,
     NativeScriptHttpModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [Http]
+        useFactory: (TranslateLoaderFactory),
+        deps: [HttpClient]
       }
     }),
     ...SHARED_MODULES

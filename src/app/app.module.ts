@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { Http, HttpModule } from '@angular/http';
+import { HttpModule } from '@angular/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 // vendor dependencies
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -18,7 +19,7 @@ import { NavigationService } from 'app/navigation.service';
 
 Config.PLATFORM_TARGET = Config.PLATFORMS.WEB;
 
-export function createTranslateLoader(http: Http) {
+export function TranslateLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(<any>http, './assets/i18n/', '.json');
 }
 
@@ -30,11 +31,12 @@ export function createTranslateLoader(http: Http) {
   imports: [
     BrowserAnimationsModule,
     HttpModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [Http]
+        useFactory: (TranslateLoaderFactory),
+        deps: [HttpClient]
       }
     }),
     ...SHARED_MODULES,

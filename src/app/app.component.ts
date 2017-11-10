@@ -6,7 +6,7 @@ import { MenuItem } from './menu/menu.common';
 
 @Component({
   moduleId: module.id,
-  selector: 'petbros-app',
+  selector: 'daszichan-app',
   templateUrl: './app.component.html',
 })
 export class AppComponent {
@@ -32,6 +32,6 @@ export class AppComponent {
 
   constructor(translate: TranslateService) {
     translate.setDefaultLang('en');
-    translate.use('en');
+    translate.use('zh');
   }
 }
