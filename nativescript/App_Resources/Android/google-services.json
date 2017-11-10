@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "234930243940",
-    "firebase_url": "https://pet-bros.firebaseio.com",
-    "project_id": "pet-bros",
-    "storage_bucket": "pet-bros.appspot.com"
+    "project_number": "198573319997",
+    "firebase_url": "https://daszichan.firebaseio.com",
+    "project_id": "daszichan",
+    "storage_bucket": "daszichan.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:234930243940:android:1b095b3a77734539",
+        "mobilesdk_app_id": "1:198573319997:android:fa8199ac7f78aa7f",
         "android_client_info": {
-          "package_name": "com.sebawita.petbros"
+          "package_name": "com.lospringliu.daszichan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "234930243940-l6qnsm58lf31l1v2m3rg9sm02i89a53q.apps.googleusercontent.com",
+          "client_id": "198573319997-vj9g3upfd427bp0l2h0vho547o2mij9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lospringliu.daszichan",
+            "certificate_hash": "055298d7e13a95c8b5ecba1ff71970badaa6014a"
+          }
+        },
+        {
+          "client_id": "198573319997-t8a9pvsvvdl4m2fadje41l9e6bv4jnm0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD6O0kUcj8Yum8WeG-KLIm1KimNr8wVlA4"
+          "current_key": "AIzaSyBr-8GVjtelGnUoxHqNepPOYYLwSrp-uwI"
         }
       ],
       "services": {
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198573319997-qqal6ja8c2fjcprpioj0ir3v9e5muquq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lospringliu.daszhichan"
+              }
+            },
+            {
+              "client_id": "198573319997-t8a9pvsvvdl4m2fadje41l9e6bv4jnm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

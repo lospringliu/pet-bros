@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-const replace = require('gulp-string-replace')
+const replace = require('gulp-string-replace');
 const debug = require('gulp-debug');
 const del = require('del');
  
