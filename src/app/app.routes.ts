@@ -28,6 +28,7 @@ export const AppRoutes: Routes = [
       user: UserResolver,
     },
   },
+  { path: "cars", loadChildren: "app/cars/cars.module#CarsModule" },
   {
     path: 'home',
     loadChildren: 'app/home/home.module#HomeModule',

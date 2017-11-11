@@ -25,4 +25,8 @@
       </ng-template>
     </ListView>
   </StackLayout>
+
+  <StackLayout *tabItem="{title: 'rent cars'}">
+    <Button [nsRouterLink]="['/cars']" text="rent a car" class="btn btn-primary"></Button>
+  </StackLayout>
 </TabView>
